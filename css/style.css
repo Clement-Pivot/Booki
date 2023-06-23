@@ -1,3 +1,6 @@
+@import 'css/pages/hebergements.css';
+@import 'css/modules/searchbar.css';
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
