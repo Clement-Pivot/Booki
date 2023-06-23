@@ -26,9 +26,11 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
 }
+    main{
+        padding: 0 50px;
+    }
 
 .section-title {
     margin: 0;

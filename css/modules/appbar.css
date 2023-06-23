@@ -1,6 +1,13 @@
 .appBar {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 1.875rem;
 }
     #logo {
-        padding: 1.875rem;
+        margin: 1.875rem;
+    }
+
+    .menu{
+        flex-direction: row-reverse;
+        justify-content: flex-end;
     }
