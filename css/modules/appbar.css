@@ -1,0 +1,6 @@
+.appBar {
+    display: flex;
+}
+    #logo {
+        padding: 1.875rem;
+    }

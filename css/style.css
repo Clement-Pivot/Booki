@@ -1,5 +1,7 @@
-@import 'css/pages/hebergements.css';
-@import 'css/modules/searchbar.css';
+@import 'modules/searchbar.css';
+@import 'modules/appbar.css';
+
+@import 'pages/hebergements.css';
 
 /****** General ***********/
 * {
