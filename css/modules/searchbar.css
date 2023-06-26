@@ -1,4 +1,13 @@
 .infoGroup__searchBar {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
+
+  .infoGroup__header{
+    margin-bottom: 0;
+  }
+
+  .infoGroup__text{
+    margin-top:     0.5rem;
+    margin-bottom:  2.1875rem;
+  }

@@ -1,37 +1,40 @@
 .appBar {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1.875rem;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.875rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 #logo {
-    padding: 1.875rem;
+  padding: 1.875rem;
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 25px 25px;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5625rem 1.5625rem;
+  height: 100%;
 }
 
 .menu__button {
-    list-style-type: none;
-    padding-top: 1rem;
-    margin: 0 35px;
-    border-top-style: solid;
-    border-top-width: 2px;
-    border-color: var(--main-bg-color);
+  list-style-type: none;
+  padding-top: 1rem;
+  margin: 0 2.1875rem;
+  border-top-style: solid;
+  border-top-width: 0.125rem;
+  border-color: var(--main-bg-color);
 }
 
-    .menu__button:hover, .menu__button.active {
-        border-color: var(--main-color);
-    }
-        .menu__button:hover a, .menu__button.active a{
-            color: var(--main-color);
-        }
+.menu__button:hover,
+.menu__button.active {
+  border-color: var(--main-color);
+}
+
+.menu__button:hover a,
+.menu__button.active a {
+  color: var(--main-color);
+}
