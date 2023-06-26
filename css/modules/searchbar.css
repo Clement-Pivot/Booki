@@ -4,28 +4,29 @@
 }
 
 .infoGroup__text{
-  margin-top:     0.5rem;
-  margin-bottom:  2.1875rem;
+  margin-top:     8px;
+  margin-bottom:  35px;
 }
 
 .infoGroup__searchBar {
   display: flex;
   align-items: center;
-  height: 3.125rem;
+  height: 50px;
   margin-bottom: 35px;
 }
   .infoGroup__searchBar-icon {
     color: #000;
-    width: 3.125rem;
-    border-top-left-radius:     0.9375rem;
-    border-bottom-left-radius:  0.9375rem;
-    background: #F2F2F2;
+    width: 50px;
+    border-top-left-radius:     15px;
+    border-bottom-left-radius:  15px;
+    height: 49px;
+    background: var(--main-bg-color);
   }
 
   .infoGroup__searchBar-text {
     border: 1px solid;
-    border-color: #F2F2F2;
-    height: 48px;
+    border-color: var(--main-bg-color);
+    height: 47px;
     width:  195px;
     padding: 0;
     font-size: 18px;
@@ -35,15 +36,14 @@
 
   .infoGroup__searchBar-button {
     background-color: var(--main-color);
-    border-top-right-radius:    0.9375rem;
-    border-bottom-right-radius: 0.9375rem;
+    border-top-right-radius:    15px;
+    border-bottom-right-radius: 15px;
     border-style: none;
-    height: 50px;
+    height: 49px;
     padding: 15px;
     color: var(--white, #FFF);
     text-align: center;
     font-size: 18px;
-    font-family: Raleway;
     font-weight: 700; 
   }
 
@@ -62,15 +62,25 @@
       font-size: 22px;
     }
 
-      .infoGroup__searchBar-button {
-        border-radius: 15px;
+    .infoGroup__searchBar {
+      display: flex;
+      width: 100%;
+    }
+
+      .infoGroup__searchBar-text {
+        border-right-style: none;
+        width: 100%;
       }
 
-        .infoGroup__searchBar-buttonText {
-          display: none;
+        .infoGroup__searchBar-button {
+          border-radius: 15px;
         }
-        
-        .infoGroup__searchBar-buttonIcon {
-          display: inline;
-        }
+
+          .infoGroup__searchBar-buttonText {
+            display: none;
+          }
+          
+          .infoGroup__searchBar-buttonIcon {
+            display: inline;
+          }
 }
