@@ -29,3 +29,13 @@
         font-size: 16px;
         margin: 20px 19px;
       }
+
+@media (max-width: 1024px) {
+  .activities__container-card, .activities__container-cardPhoto {
+    width: 194px;
+  }
+
+  .activities__container-cardPhoto {
+    height: 200px;
+  }
+}
