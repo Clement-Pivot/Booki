@@ -46,3 +46,31 @@
     font-family: Raleway;
     font-weight: 700; 
   }
+
+    .infoGroup__searchBar-buttonIcon {
+      display: none;
+    }
+
+@media (max-width: 768px) {
+  .infoGroup {
+    padding: 0px 20px;
+    margin-top: 0;
+  }
+
+    .infoGroup__header {
+      margin-top: 0;
+      font-size: 22px;
+    }
+
+      .infoGroup__searchBar-button {
+        border-radius: 15px;
+      }
+
+        .infoGroup__searchBar-buttonText {
+          display: none;
+        }
+        
+        .infoGroup__searchBar-buttonIcon {
+          display: inline;
+        }
+}
