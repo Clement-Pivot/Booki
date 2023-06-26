@@ -1,4 +1,31 @@
 .activities {
     padding: 30px;
-    /* margin: 0 35px 0 0; */
 }
+
+  .activities__header {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .activities__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .activities__container-card {
+      margin: 5px;
+      border-radius: 20px;
+      box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    }
+
+      .activities__container-cardPhoto {
+        object-fit: cover;
+        height: 380px;
+        width: 297.5px;
+        border-radius: 20px 20px 0px 0px;
+      }
+
+      .activities__container-cardText {
+        font-size: 16px;
+        margin: 20px 19px;
+      }
