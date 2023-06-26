@@ -2,6 +2,7 @@
 @import 'modules/appbar.css';
 @import 'modules/filter.css';
 @import 'modules/infobar.css';
+@import 'modules/footer.css';
 
 @import 'pages/hebergements.css';
 @import 'pages/activities.css';
