@@ -1,9 +1,11 @@
 .hebergements {
   padding: 30px;
+  margin-bottom: 35px;
 }
 
   .hebergements__header {
     margin: 0 0 30px;
+    font-size: 22px;
   }
 
   .hebergements__container {
@@ -48,4 +50,5 @@
 
   .hebergements__footer {
     margin: 0;
+    font-size: 18px;
   }
