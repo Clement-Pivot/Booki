@@ -23,13 +23,17 @@
 
 .menu__button {
     list-style-type: none;
-    padding: 1rem 25px 0;
+    padding-top: 1rem;
+    margin: 0 25px;
     height: 100%;
-}
-
-.menu__button:hover, .menu__button .active {
     border-top-style: solid;
     border-top-width: 2px;
-    border-color: var(--main-color);
-    color: var(--main-color);
+    border-color: var(--main-bg-color);
 }
+
+    .menu__button:hover, .menu__button.active {
+        border-color: var(--main-color);
+    }
+        .menu__button:hover a, .menu__button.active a{
+            color: var(--main-color);
+        }
