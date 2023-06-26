@@ -14,18 +14,16 @@
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
     justify-content: space-between;
-    padding-bottom: 25px;
+    align-items: center;
+    margin: 0 25px 25px;
     height: 100%;
 }
 
 .menu__button {
     list-style-type: none;
     padding-top: 1rem;
-    margin: 0 25px;
-    height: 100%;
+    margin: 0 35px;
     border-top-style: solid;
     border-top-width: 2px;
     border-color: var(--main-bg-color);
