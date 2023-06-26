@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   height: 3.125rem;
+  margin-bottom: 35px;
 }
   .infoGroup__searchBar-icon {
     color: #000;
