@@ -65,15 +65,18 @@
 
     .infoGroup__searchBar {
       display: flex;
-      width: 100%;
+      width: 110%;
     }
 
       .infoGroup__searchBar-text {
         width: 100%;
+        /* TODO: mettre le texte à gauche */
       }
 
         .infoGroup__searchBar-button {
           border-radius: 15px;
+          position: relative;
+          left: -30px;
         }
 
           .infoGroup__searchBar-buttonText {

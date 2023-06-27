@@ -59,6 +59,7 @@
 @media (max-width: 768px) {
   .hebergements {
     background-color: #fff !important;
+    padding: 20px !important;
   }
 
     .hebergements__container-card {
