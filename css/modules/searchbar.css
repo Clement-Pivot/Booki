@@ -70,7 +70,8 @@
 
       .infoGroup__searchBar-text {
         width: 100%;
-        /* TODO: mettre le texte à gauche */
+        text-align: start;  
+        padding-left: 24px;
       }
 
         .infoGroup__searchBar-button {
