@@ -49,6 +49,7 @@
 
     .activities__container-card {
       width: 100%;
+      margin-bottom: 15px;
     }
 
       .activities__container-card img {
