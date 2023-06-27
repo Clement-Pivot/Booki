@@ -26,6 +26,7 @@
   .infoGroup__searchBar-text {
     border: 1px solid;
     border-color: var(--main-bg-color);
+    border-right-style: none;
     height: 47px;
     width:  195px;
     padding: 0;
@@ -68,7 +69,6 @@
     }
 
       .infoGroup__searchBar-text {
-        border-right-style: none;
         width: 100%;
       }
 

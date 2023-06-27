@@ -51,3 +51,30 @@
       padding: 0;
     }
 }
+
+@media (max-width: 768px) {
+  .infoGroup__filterBar {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 35px;
+  }
+
+    .infoGroup__filterBar-header{
+      height: 100%;
+    }
+  
+    .infoGroup__filterBar-container {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      row-gap: 20px;
+      column-gap: 5px;
+      
+    }
+
+    .infoGroup__filterBar-button {
+      font-size: 14px;
+      justify-content: flex-start;
+    }
+}
