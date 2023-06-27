@@ -47,7 +47,11 @@
     flex-direction: column;
   }
 
-  .activities__container-card {
-    width: 100%;
-  }
+    .activities__container-card {
+      width: 100%;
+    }
+
+      .activities__container-card img {
+        width: 100%;
+      }
 }
