@@ -65,26 +65,26 @@
 
     .infoGroup__searchBar {
       display: flex;
-      width: 110%;
+      width: 100%;
     }
 
       .infoGroup__searchBar-text {
-        width: 100%;
+        width: calc(100% + 30px);
         text-align: start;  
         padding-left: 24px;
       }
 
-        .infoGroup__searchBar-button {
-          border-radius: 15px;
-          position: relative;
-          left: -30px;
-        }
+      .infoGroup__searchBar-button {
+        border-radius: 15px;
+        position: relative;
+        left: -30px;
+      }
 
-          .infoGroup__searchBar-buttonText {
-            display: none;
-          }
-          
-          .infoGroup__searchBar-buttonIcon {
-            display: inline;
-          }
+        .infoGroup__searchBar-buttonText {
+          display: none;
+        }
+        
+        .infoGroup__searchBar-buttonIcon {
+          display: inline;
+        }
 }
