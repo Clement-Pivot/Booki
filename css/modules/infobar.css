@@ -5,6 +5,10 @@
   margin-bottom: 35px;
 }
 
+  .infoGroup__header {
+    font-size: 22px;
+  }
+
   .infoGroup__infoBar img {
     border-radius: 24px;
     border: 1px solid var(--grey-tint-2, #D9D9D9);
