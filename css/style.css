@@ -124,6 +124,7 @@ main {
 .populaires-cards .card-rating {
   margin-bottom: 5px;
 }
+
 .appBar {
   display: flex;
   flex-direction: row;
@@ -420,6 +421,7 @@ main {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
   .infoGroup__filterBar {
     display: flex;
     flex-direction: column;
@@ -439,7 +441,7 @@ main {
     margin: 0;
     padding: 0;
   }
-  
+
   .activities__container-card,
   .activities__container-cardPhoto {
     width: 194px;
@@ -451,7 +453,7 @@ main {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 768px) {
+@media (max-width: 767.97px) {
   main {
     padding: 0;
   }
@@ -512,6 +514,7 @@ main {
     border-bottom-width: 2px;
     align-items: stretch;
   }
+
   .infoGroup__filterBar {
     width: 100%;
     height: 100%;
@@ -528,7 +531,7 @@ main {
     display: grid;
     grid-template-columns: 50% 50%;
     row-gap: 20px;
-    column-gap: 5px;
+    column-gap: 10px;
 
   }
 
@@ -548,6 +551,7 @@ main {
   .footer__column {
     padding: 0;
   }
+
   .infoGroup {
     padding: 0px 20px;
     margin-top: 0;
@@ -582,6 +586,7 @@ main {
   .infoGroup__searchBar-buttonIcon {
     display: inline;
   }
+
   .activities__container {
     height: 100%;
     display: flex;
