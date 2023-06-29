@@ -526,13 +526,12 @@ main {
   }
 
   .infoGroup__filterBar-container {
-    width: 100%;
+    width: calc(100% - 10px);
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     row-gap: 20px;
     column-gap: 10px;
-
   }
 
   .infoGroup__filterBar-button {
