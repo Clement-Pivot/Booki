@@ -78,6 +78,7 @@ main {
 /****** Hebergements ***********/
 .hebergements {
   width: 65%;
+  padding: 30px;
 }
 
 /****** Populaires ***********/
@@ -325,11 +326,6 @@ main {
 .activities__container-cardText {
   font-size: 16px;
   margin: 20px 19px;
-}
-
-
-.hebergements {
-  padding: 30px;
 }
 
 .hebergements__header {
