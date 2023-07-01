@@ -158,12 +158,12 @@ main {
 }
 
 .menu__button:hover,
-.menu__button.active {
+.menu__button:active {
   border-color: var(--main-color);
 }
 
 .menu__button:hover a,
-.menu__button.active a {
+.menu__button:active a {
   color: var(--main-color);
 }
 
@@ -353,7 +353,9 @@ main {
 
 .hebergements__container-cardPhoto {
   height: 114px;
-  width: calc(100% - 10px);
+  /* width: calc(100% - 10px); */
+  width: 100%;
+  box-sizing: border-box;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   border: 5px solid var(--white, #FFF);
@@ -534,6 +536,56 @@ main {
     justify-content: flex-start;
   }
 
+  .infoGroup {
+    padding: 0px 20px;
+    margin-top: 0;
+  }
+  
+  .infoGroup__header {
+    margin-top: 0;
+    font-size: 22px;
+  }
+  
+  .infoGroup__searchBar {
+    display: flex;
+    width: calc(100% + 30px);
+  }
+  
+  .infoGroup__searchBar-text {
+    width: 100%;
+    text-align: start;
+    padding-left: 24px;
+  }
+  
+  .infoGroup__searchBar-button {
+    border-radius: 15px;
+    position: relative;
+    left: -30px;
+  }
+  
+  .infoGroup__searchBar-buttonText {
+    display: none;
+  }
+  
+  .infoGroup__searchBar-buttonIcon {
+    display: inline;
+  }
+  
+  .activities__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .activities__container-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .activities__container-card img {
+    width: 100%;
+  }
+
   .footer {
     margin: 30px 0 0 0;
     display: flex;
@@ -541,58 +593,8 @@ main {
     padding: 30px;
     gap: 50px;
   }
-
+  
   .footer__column {
     padding: 0;
-  }
-
-  .infoGroup {
-    padding: 0px 20px;
-    margin-top: 0;
-  }
-
-  .infoGroup__header {
-    margin-top: 0;
-    font-size: 22px;
-  }
-
-  .infoGroup__searchBar {
-    display: flex;
-    width: calc(100% + 30px);
-  }
-
-  .infoGroup__searchBar-text {
-    width: 100%;
-    text-align: start;
-    padding-left: 24px;
-  }
-
-  .infoGroup__searchBar-button {
-    border-radius: 15px;
-    position: relative;
-    left: -30px;
-  }
-
-  .infoGroup__searchBar-buttonText {
-    display: none;
-  }
-
-  .infoGroup__searchBar-buttonIcon {
-    display: inline;
-  }
-
-  .activities__container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .activities__container-card {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-
-  .activities__container-card img {
-    width: 100%;
   }
 }
