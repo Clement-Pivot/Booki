@@ -473,7 +473,6 @@ main {
   }
   
   .infoGroup .searchBar {
-    display: flex;
     width: calc(100% + 30px);
   }
   
@@ -546,6 +545,10 @@ main {
   
   .hebergements .container .card {
     width: 100%;
+  }
+
+  .hebergements .footer {
+    background: #FFF;
   }
   
   .activities .container {
