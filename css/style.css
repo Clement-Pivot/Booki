@@ -175,11 +175,16 @@ main {
 }
 
 .infoGroup__searchBar-icon {
+  display: flex;
+  flex-direction: column;
   color: #000;
   width: 50px;
   border-radius: 15px 0px 0px 15px;
   height: 49px;
   background: var(--main-bg-color);
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
 }
 
 .infoGroup__searchBar-text {
@@ -259,7 +264,6 @@ main {
   height: 114px;
   width: 100%;
   box-sizing: border-box;
-  object-fit: cover;
   border-radius: 20px 20px 0px 0px;
   border: 5px solid var(--white, #FFF);
   background-size: contain;
@@ -352,7 +356,6 @@ main {
 }
 
 .activities__container-cardPhoto {
-  object-fit: cover;
   height: 380px;
   width: 297.5px;
   border-radius: 20px 20px 0px 0px;
@@ -483,7 +486,7 @@ main {
   main {
     padding: 0;
   }
-  
+
   .infoGroup__filterBar {
     width: 100%;
     height: 100%;
