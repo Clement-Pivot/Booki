@@ -146,10 +146,6 @@ main {
   margin-bottom: 35px;
 }
 
-.infoGroup__header {
-  font-size: 22px;
-}
-
 .infoGroup__infoBar img {
   border-radius: 24px;
   border: 1px solid var(--grey-tint-2, #D9D9D9);
@@ -175,6 +171,7 @@ main {
 }
 
 .infoGroup__searchBar-icon {
+  /* section-title */
   display: flex;
   flex-direction: column;
   color: #000;
@@ -212,7 +209,7 @@ main {
   font-weight: 700;
 }
 
-.infoGroup__searchBar-buttonIcon {
+.infoGroup__searchBar--buttonIcon {
   display: none;
 }
 
@@ -249,6 +246,7 @@ main {
 }
 
 .hebergements__header {
+  /* section-title */
   margin: 0 0 30px;
   font-size: 22px;
 }
@@ -260,39 +258,34 @@ main {
   justify-content: space-between;
 }
 
-.hebergements__container-card {
-  padding-bottom: 15px;
-  border-radius: 20px;
-  background: #FFF;
-  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+.hebergements__container .card {
   width: 250px;
-  height: 207px;
+  height: 192px;
   margin-bottom: 30px;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: column;
 }
 
-.hebergements__container-cardPhoto {
+.hebergements__container .card img {
   height: 114px;
   width: 100%;
   box-sizing: border-box;
   border-radius: 20px 20px 0px 0px;
-  border: 5px solid var(--white, #FFF);
-  background-size: contain;
   align-self: center;
 }
 
-.hebergements__container-cardHeader {
+.hebergements__container .card .card-title {
   font-size: 16px;
-  margin: 0 0 0 15px;
+  margin: 4px 0 0 15px;
 }
 
-.hebergements__container-cardText {
+.hebergements__container .card .text {
   font-size: 16px;
   margin: 8px 0 8px 15px;
 }
 
-.hebergements__container-cardNote {
+.hebergements__container .card .note {
   margin: 0 0 0 15px;
 }
 
@@ -352,6 +345,7 @@ main {
 }
 
 .activities__header {
+  /* section-title */
   font-size: 22px;
   margin-bottom: 30px;
 }
@@ -528,10 +522,9 @@ main {
     margin-top: 0;
   }
   
-  .infoGroup__header {
+  /* .infoGroup .section-title {
     margin-top: 0;
-    font-size: 22px;
-  }
+  } */
   
   .infoGroup__searchBar {
     display: flex;
