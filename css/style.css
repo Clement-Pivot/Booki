@@ -233,14 +233,14 @@ main {
   margin: 0 0 30px;
 }
 
-.hebergements__container {
+.hebergements .container {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.hebergements__container .card {
+.hebergements .container .card {
   width: 250px;
   height: 192px;
   margin-bottom: 30px;
@@ -249,7 +249,7 @@ main {
   flex-direction: column;
 }
 
-.hebergements__container .card img {
+.hebergements .container .card img {
   height: 114px;
   width: 100%;
   box-sizing: border-box;
@@ -257,21 +257,20 @@ main {
   align-self: center;
 }
 
-.hebergements__container .card .card-title {
-  font-size: 16px;
+.hebergements .container .card .card-title {
   margin: 4px 0 0 15px;
 }
 
-.hebergements__container .card .text {
+.hebergements .container .card .text {
   font-size: 16px;
   margin: 8px 0 8px 15px;
 }
 
-.hebergements__container .card .note {
+.hebergements .container .card .note {
   margin: 0 0 0 15px;
 }
 
-.hebergements__footer {
+.hebergements .footer {
   margin: 0;
   font-size: 18px;
 }
@@ -326,30 +325,27 @@ main {
   padding: 30px;
 }
 
-.activities__header {
-  /* section-title */
-  font-size: 22px;
+.activities .section-title {
   margin-bottom: 30px;
 }
 
-.activities__container {
+.activities .container {
   display: flex;
   justify-content: space-between;
 }
 
-.activities__container-card {
+.activities .container .card {
+  padding: 0px;
   margin: 5px;
-  border-radius: 20px;
-  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
-.activities__container-cardPhoto {
+.activities .container .card img {
   height: 380px;
   width: 297.5px;
   border-radius: 20px 20px 0px 0px;
 }
 
-.activities__container-cardText {
+.activities .container .card h2 {
   font-size: 16px;
   margin: 20px 19px;
 }
@@ -429,12 +425,12 @@ main {
     font-size: 13px;
   }
   
-  .activities__container-card,
-  .activities__container-cardPhoto {
+  .activities .container .card,
+  .activities .container .cardPhoto {
     width: 194px;
   }
   
-  .activities__container-cardPhoto {
+  .activities .container .cardPhoto {
     height: 200px;
   }
 }
@@ -552,22 +548,22 @@ main {
     padding: 20px !important;
   }
   
-  .hebergements__container-card {
+  .hebergements .container .card {
     width: 100%;
   }
   
-  .activities__container {
+  .activities .container {
     height: 100%;
     display: flex;
     flex-direction: column;
   }
   
-  .activities__container-card {
+  .activities .container .card {
     width: 100%;
     margin-bottom: 15px;
   }
   
-  .activities__container-card img {
+  .activities .container .card img {
     width: 100%;
   }
   
