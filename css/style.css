@@ -86,7 +86,7 @@ main {
   height: 100%;
 }
 
-.menu__button {
+.menu .button {
   list-style-type: none;
   padding-top: 16px;
   margin: 0 35px;
@@ -95,13 +95,13 @@ main {
   border-color: var(--main-bg-color);
 }
 
-.menu__button:hover,
-.menu__button:active {
+.menu .button:hover,
+.menu .button:active {
   border-color: var(--main-color);
 }
 
-.menu__button:hover a,
-.menu__button:active a {
+.menu .button:hover a,
+.menu .button:active a {
   color: var(--main-color);
 }
 
@@ -451,7 +451,7 @@ main {
     align-items: stretch;
   }
   
-  .menu__button {
+  .menu .button {
     display: flex;
     justify-content: center;
     flex: 1;
