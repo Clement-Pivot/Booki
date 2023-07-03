@@ -216,6 +216,18 @@ main {
   display: none;
 }
 
+.infoGroup__infoBar--icon {
+  border-radius: 25px;
+  border: 1px solid var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
   display: flex;
