@@ -106,24 +106,19 @@ main {
 }
 
 /****** InfoGroup ******/
-.infoGroup__header {
-  margin-bottom: 0;
-}
-
-.infoGroup__text {
+.infoGroup .text {
   margin-top: 8px;
   margin-bottom: 35px;
 }
 
-.infoGroup__searchBar {
+.infoGroup .searchBar {
   display: flex;
   align-items: center;
   height: 50px;
   margin-bottom: 35px;
 }
 
-.infoGroup__searchBar .icon {
-  /* section-title */
+.infoGroup .searchBar .icon {
   display: flex;
   flex-direction: column;
   color: #000;
@@ -136,19 +131,21 @@ main {
   font-size: 22px;
 }
 
-.infoGroup__searchBar-text {
-  border: 1px solid;
-  border-color: var(--main-bg-color);
+.infoGroup .searchBar .text {
+  border: 1px solid var(--main-bg-color);
   border-right-style: none;
-  height: 47px;
+  box-sizing: border-box;
+  height: 49px;
   width: 195px;
   padding: 0;
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  vertical-align: center;
+  margin-top: 35px;
 }
 
-.infoGroup__searchBar-button {
+.infoGroup .searchBar .button {
   background-color: var(--main-color);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -161,49 +158,46 @@ main {
   font-weight: 700;
 }
 
-.infoGroup__searchBar--buttonIcon {
+.infoGroup .searchBar .buttonIcon {
   display: none;
 }
 
-.infoGroup__filterBar,
-.infoGroup__filterBar-container {
+.infoGroup .filterBar,
+.infoGroup .filterBar-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 50px;
-  /* font-size: 18px; */
   font-weight: 700;
   margin: 35px 0;
   gap: 15px;
 }
 
-.infoGroup__filterBar-button {
+.infoGroup .filterBar-button {
   border-radius: 25px;
   height: 50px;
   padding: 4px 19px;
   border: 2px solid var(--main-bg-color);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  /* font-size: 18px; */
   font-weight: 700;
   gap: 10px;
   background-color: #fff;
 }
 
-.infoGroup__filterBar-button:hover,
-.infoGroup__filterBar-button.active {
+.infoGroup .filterBar-button:hover,
+.infoGroup .filterBar-button.active {
   background: var(--filter-bg-color);
 }
 
-.infoGroup__infoBar {
+.infoGroup .infoBar {
   font-size: 16px;
   display: flex;
   align-items: center;
   margin-bottom: 35px;
 }
 
-.infoGroup__infoBar--icon {
+.infoGroup .infoBar__icon {
   border-radius: 25px;
   border: 1px solid var(--main-bg-color);
   display: flex;
@@ -235,10 +229,8 @@ main {
   padding: 30px;
 }
 
-.hebergements__header {
-  /* section-title */
+.hebergements .section-title {
   margin: 0 0 30px;
-  font-size: 22px;
 }
 
 .hebergements__container {
@@ -386,21 +378,21 @@ main {
 
 /****** Media queries ***********/
 @media (max-width: 1024px) {
-  .infoGroup__filterBar {
+  .infoGroup .filterBar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 70px;
   }
   
-  .infoGroup__filterBar-container {
+  .infoGroup .filterBar-container {
     display: flex;
     flex-direction: row;
     margin: 0;
     padding: 0;
   }
   
-  .infoGroup__filterBar-header {
+  .infoGroup .filterBar-header {
     margin-bottom: 26px;
     margin: 0;
     padding: 0;
@@ -483,17 +475,47 @@ main {
     padding: 0;
   }
 
-  .infoGroup__filterBar {
+  .infoGroup {
+    padding: 0px 20px;
+    margin-top: 0;
+  }
+  
+  .infoGroup .searchBar {
+    display: flex;
+    width: calc(100% + 30px);
+  }
+  
+  .infoGroup .searchBar .text {
+    width: 100%;
+    text-align: start;
+    padding-left: 24px;
+  }
+  
+  .infoGroup .searchBar .button {
+    border-radius: 15px;
+    position: relative;
+    left: -30px;
+  }
+  
+  .infoGroup .searchBar .buttonText {
+    display: none;
+  }
+  
+  .infoGroup .searchBar .buttonIcon {
+    display: inline;
+  }
+
+  .infoGroup .filterBar {
     width: 100%;
     height: 100%;
     margin-bottom: 35px;
   }
   
-  .infoGroup__filterBar-header {
+  .infoGroup .filterBar-header {
     height: 100%;
   }
   
-  .infoGroup__filterBar-container {
+  .infoGroup .filterBar-container {
     width: calc(100% - 10px);
     height: 100%;
     display: grid;
@@ -502,43 +524,9 @@ main {
     column-gap: 10px;
   }
   
-  .infoGroup__filterBar-button {
+  .infoGroup .filterBar-button {
     font-size: 14px;
     justify-content: flex-start;
-  }
-  
-  .infoGroup {
-    padding: 0px 20px;
-    margin-top: 0;
-  }
-  
-  /* .infoGroup .section-title {
-    margin-top: 0;
-  } */
-  
-  .infoGroup__searchBar {
-    display: flex;
-    width: calc(100% + 30px);
-  }
-  
-  .infoGroup__searchBar-text {
-    width: 100%;
-    text-align: start;
-    padding-left: 24px;
-  }
-  
-  .infoGroup__searchBar-button {
-    border-radius: 15px;
-    position: relative;
-    left: -30px;
-  }
-  
-  .infoGroup__searchBar-buttonText {
-    display: none;
-  }
-  
-  .infoGroup__searchBar-buttonIcon {
-    display: inline;
   }
   
   .populaires {
