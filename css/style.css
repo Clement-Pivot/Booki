@@ -358,17 +358,13 @@ main {
   margin: 0 50px;
 }
 
-.footer__column {
+.footer .column {
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.footer__column-header {
-  margin: 0;
-}
-
-.footer__column-link {
+.footer .link {
   margin-top: 15px;
 }
 
@@ -575,7 +571,7 @@ main {
     gap: 50px;
   }
   
-  .footer__column {
+  .footer .column {
     padding: 0;
   }
 }
