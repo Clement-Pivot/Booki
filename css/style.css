@@ -63,7 +63,6 @@ main {
   color: var(--main-bg-color)
 }
 
-
 /***** AppBar *****/
 .appBar {
   display: flex;
@@ -108,8 +107,7 @@ main {
 
 /****** InfoGroup ******/
 .infoGroup__filterBar,
-.infoGroup__filterBar-container,
-.infoGroup__filterBar-header {
+.infoGroup__filterBar-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -124,7 +122,7 @@ main {
   border-radius: 25px;
   height: 50px;
   padding: 4px 19px;
-  border: 2px solid var(--grey-tint-2, #D9D9D9);
+  border: 2px solid var(--main-bg-color);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -136,7 +134,7 @@ main {
 
 .infoGroup__filterBar-button:hover,
 .infoGroup__filterBar-button.active {
-  background: var(--blue-light, #DEEBFF);
+  background: var(--filter-bg-color);
 }
 
 .infoGroup__infoBar {
@@ -148,7 +146,7 @@ main {
 
 .infoGroup__infoBar img {
   border-radius: 24px;
-  border: 1px solid var(--grey-tint-2, #D9D9D9);
+  border: 1px solid var(--main-bg-color);
   height: 24px;
   width: 24px;
   margin-right: 10px;
@@ -170,7 +168,7 @@ main {
   margin-bottom: 35px;
 }
 
-.infoGroup__searchBar-icon {
+.infoGroup__searchBar .icon {
   /* section-title */
   display: flex;
   flex-direction: column;
