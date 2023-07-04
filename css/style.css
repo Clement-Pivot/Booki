@@ -424,7 +424,8 @@ main {
   
   .activities .container .card,
   .activities .container .cardPhoto {
-    width: 194px;
+    /* TODO HERE */
+    width: 100%;
   }
   
   .activities .container .cardPhoto {
