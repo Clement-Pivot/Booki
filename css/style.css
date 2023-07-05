@@ -493,6 +493,10 @@ main {
   .infoGroup .searchBar .buttonIcon {
     display: inline;
   }
+  
+  .infoGroup .searchBar .buttonIcon i {
+    color: white;
+  }
 
   .infoGroup .filterBar {
     height: 100%;
