@@ -332,12 +332,13 @@ main {
 
 .activities .container {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
 }
 
 .activities .container .card {
+  align-self: stretch;
   padding: 0px;
-  margin: 5px;
 }
 
 .activities .container .card img {
