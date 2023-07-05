@@ -188,6 +188,10 @@ main {
   background-color: #fff;
 }
 
+.infoGroup .filterBar-button i {
+  font-size: 19px;
+}
+
 .infoGroup .filterBar-button:hover {
   background: var(--filter-bg-color);
 }
