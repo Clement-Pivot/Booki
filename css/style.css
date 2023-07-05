@@ -495,26 +495,27 @@ main {
   }
 
   .infoGroup .filterBar {
-    width: 100%;
     height: 100%;
     margin-bottom: 35px;
   }
   
   .infoGroup .filterBar-header {
     height: 100%;
+    margin-bottom: 20px;
   }
   
   .infoGroup .filterBar-container {
     flex-wrap: wrap;
+    width: 100%;
     height: 100%;
   }
   
   .infoGroup .filterBar-button {
-    width: 47.5%;
+    flex: 1 0 40%;
     font-size: 14px;
     justify-content: flex-start;
   }
-  
+
   .populaires {
     order: -1;
     margin-top: 0;
