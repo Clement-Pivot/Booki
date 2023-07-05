@@ -87,6 +87,7 @@ main {
 }
 
 .menu .button {
+  display: flex;
   list-style-type: none;
   padding-top: 16px;
   margin: 0 35px;
@@ -112,8 +113,9 @@ main {
 }
 
 .infoGroup .searchBar {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50px 195px 130px;
+  grid-template-rows: 50px;
   height: 50px;
   margin-bottom: 35px;
 }
@@ -137,7 +139,7 @@ main {
   font-weight: 700;
   text-align: center;
   vertical-align: center;
-  margin-top: 35px;
+  margin: 0;
 }
 
 .infoGroup .searchBar .button {
@@ -145,8 +147,8 @@ main {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   border-style: none;
-  height: 49px;
   padding: 15px;
+  box-sizing: border-box;
   color: var(--white, #FFF);
   text-align: center;
   font-size: 18px;
@@ -441,16 +443,13 @@ main {
   }
   
   .menu {
-    display: flex;
     align-content: center;
     flex-direction: row;
     width: 100%;
-    
     align-items: stretch;
   }
   
   .menu .button {
-    display: flex;
     justify-content: center;
     flex: 1;
     padding: 0px 20px 15px;
@@ -472,12 +471,11 @@ main {
   }
   
   .infoGroup .searchBar {
-    display: grid;
     grid-template-columns: 49px 1fr 49px;
   }
   
   .infoGroup .searchBar .text {
-    width: 110%;
+    width: 106%;
     text-align: start;
     padding-left: 24px;
     grid-column: 2 / 3;
@@ -530,7 +528,6 @@ main {
   }
   
   .populaires-cards {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
