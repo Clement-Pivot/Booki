@@ -243,12 +243,12 @@ main {
 }
 
 .hebergements .container .card {
-  width: 250px;
   height: 192px;
   margin-bottom: 30px;
   padding-bottom: 15px;
   display: flex;
   flex-direction: column;
+  flex: 0 1 30%;
 }
 
 .hebergements .container .card img {
@@ -554,7 +554,7 @@ main {
   }
   
   .hebergements .container .card {
-    width: 100%;
+    flex: 0 1 100%;
     margin: 15px 0;
   }
 
