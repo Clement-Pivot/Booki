@@ -196,13 +196,8 @@ main {
 .infoGroup .infoBar i {
   border-radius: 25px;
   border: 1px solid var(--main-bg-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 7.5px 10.625px;
   font-size: 10px;
-  width:      24px;
-  height:     24px;
-  min-width:  24px;
   margin-right: 10px;
 }
 
