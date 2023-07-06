@@ -390,8 +390,7 @@ main {
   }
   
   .infoGroup .filterBar-header {
-    margin-bottom: 26px;
-    margin: 0;
+    margin: 0 0 20px;
     padding: 0;
   }
 
