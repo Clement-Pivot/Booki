@@ -1,6 +1,6 @@
 # booki-starter-pack
 
-[![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)  [![pages-build-deployment](https://github.com/malfeitor/booki-starter-code/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/malfeitor/booki-starter-code/actions/workflows/pages/pages-build-deployment)
 
 Code du projet Booki de la formation React d'OpenClassroom en HTML et CSS uniquement.
 
