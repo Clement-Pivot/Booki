@@ -11,7 +11,7 @@ Code du projet Booki de la formation React d'OpenClassroom en HTML et CSS unique
 ## Démarrage
 
 Ouvrez le fichier index.html avec un navigateur internet.
-Vous pouvez aussi aller sur la page [GitHub Pages](https://Clement-Pivot.github.io/booki-starter-code/) pour voir le site sans rien télécharger.
+Vous pouvez aussi aller sur la page [GitHub Pages](https://clement-pivot.github.io/booki-starter-code/) pour voir le site sans rien télécharger.
 
 ## Fabriqué avec
 
